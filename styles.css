@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+p,
+a {
+	color: #000;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
+
+.header {
+	background-image: linear-gradient(rgb(216, 146, 216),white,rgb(224, 148, 161));
+	border-bottom: 1px solid black;
+	box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 20%);
+
+}
+
+.header__container {
+	max-width: 110rem;
+	margin: 0 auto;
+	padding: 1rem 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.header__logo {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.header__title {
+	font-size: 2.5rem;
+}
+
+.api__link {
+	color: #238636;
+	text-decoration: none;
+}
+
+.nav {
+	width: 100%;
+	max-width: 250px;
+	display: flex;
+}
+
+.search__input {
+	width: 100%;
+	padding: 1rem 1.5rem;
+	font-size: 1.5rem;
+	border: 1px solid #bbb;
+	border-radius: 6px 0 0 6px;
+}
+
+.search__button {
+	width: 50px;
+	height: 30px;
+	border: none;
+	background-image: linear-gradient(rgb(32, 221, 32), rgb(139, 92, 92));
+	border-radius: 0 6px 6px 0;
+	cursor: pointer;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+.search__button:hover {background-color: #3e8e41}
+
+.search__button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.fa-search {
+	color: #fff;
+}
+
+/* User Data */
+main {
+	max-width: 110rem;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.user {
+	display: flex;
+	gap: 2rem;
+}
+
+.user__image {
+	flex: 0 0 200px;
+}
+
+.user__image img {
+	border-radius: 10px;
+}
+
+.user__info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.user__names {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.user__name {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.user__name2 {
+	color: #238636;
+	text-decoration: none;
+}
+
+.user__location,
+.user__website {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.user__location i,
+.user__website i {
+	font-size: 1.5rem;
+}
+
+.user__website a {
+	color: #238636;
+	text-decoration: none;
+}
+
+.user__stats {
+	display: flex;
+	gap: 2rem;
+	margin-top: auto;
+}
+
+.firstStat,
+.secondStat,
+.thirdStat {
+	text-align: center;
+}
+
+.firstStatNumber,
+.secondStatNumber,
+.thirdStatNumber {
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+.error {
+	display: none;
+	color: red;
+}
+
+.user__secondaryInfo {
+	max-width: 110rem;
+	margin: 0 auto;
+	padding: 2rem;
+	display: flex;
+	gap: 2rem;
+}
+
+.user__followers,
+.user__repositories {
+	flex: 1;
+}
+
+.repository {
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 1rem;
+}
+
+.repository__name {
+	color: #238636;
+	text-decoration: none;
+}
+
+.repository__languages {
+	margin-top: 2rem;
+}
+
+.user__followers__title,
+.user__repositories__title {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.follower {
+	display: flex;
+	gap: 2rem;
+	padding-bottom: 1rem;
+	margin-bottom: 3rem;
+	text-decoration: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.follower:hover .follower__username {
+	color: #238636;
+}
+
+.follower__img {
+	flex: 0 0 100px;
+}
+
+.follower__img img {
+	border-radius: 8px;
+}
+
+/* User Data */
+
+/* BreakPoints */
+@media screen and (max-width: 768px) {
+	.header__container {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+
+	.nav {
+		max-width: 100%;
+	}
+}
+
+
+
