@@ -1,9 +1,9 @@
 # GithubFinder
-Introduction
+Introduction:
 
 The GitHub Profile Finder is a web application that allows users to search for GitHub profiles using the GitHub API. Users can enter a username in the search input and click the search button to retrieve information about the user's profile, including their name, bio, location, website, and statistics such as followers, following, and repositories. Additionally, it displays the user's repositories and followers.
 
-Key Concepts
+Key Concepts:
 
 HTML: The Hypertext Markup Language (HTML) is used to structure the content of the web page. It defines the elements and their layout.
 
@@ -13,13 +13,13 @@ JavaScript: JavaScript (JS) is a programming language that adds interactivity an
 
 GitHub API: The GitHub API is a RESTful API that allows developers to access and interact with GitHub data, such as user profiles, repositories, and followers.
 
-Setup
+Setup:
 
 Clone this repository
 
 Open the index.html file in a web browser
 
-Usage
+Usage:
 
 Enter a GitHub username in the search bar
 
